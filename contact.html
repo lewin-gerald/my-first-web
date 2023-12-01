@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE MONEY UNIVERSITY OF KENYA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body >
+    <section class="sub-header">
+        <nav>
+
+            <a href="index.html" ><img src="images/Hacker-Streamer-Logo.jpg" class="logo"></a>
+
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+
+                </ul>
+            </div>
+            <i class="fa fa-bars " onclick="showmenu()"></i>
+
+        </nav>
+        <h1>CONTACT US</h1>
+
+    </section >
+    <Section class="location">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1nxxfsdOOs2x2HPEsNV-YlJDLFzM&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
+
+    </Section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div> 
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>@liquid_cash</h5>
+                        <p>find lewin gerald if you wanna know more</p>
+                    </span>
+                </div>
+                <div> 
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>lewin gerald</h5>
+                        <p>+254708480094</p>
+                    </span>
+                </div>
+                <div> 
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>gerald11951@gmail.com</h5>
+                        <p>its simple so don't worry</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="formhandler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="text" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter  your subject" required>
+                    <textarea name="message"  rows="8" placeholder="Message"></textarea>
+                    <button type="submit" class="hero red"> Send Message</button>
+
+
+
+
+
+                </form>
+
+
+            </div>
+        </div>
+
+
+
+    </section>
+  
+    
+    
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Architecto vero culpa iusto dolore maxime sequi nesciunt molestiae, ipsa sunt delectus incidunt? Dolorum officia nostrum fugiat voluptate vel quod nesciunt exercitationem!</p>
+      <div class="icons">  
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        
+      </div>
+      <p>made with  lewin gerald</p>
+
+
+</section>
+
+
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right="0";
+        }
+        function hidemenu(){
+            navlinks.style.right="-200px";
+        }
+
+
+    </script>
+    
+</body>
+</html>
