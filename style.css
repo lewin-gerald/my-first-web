@@ -495,3 +495,18 @@ text-align: left;}
         font-size: 5vw; /* Even smaller for very small screens */
     }
 }
+
+.menu-text {
+    display: none; /* Hide by default */
+    color: white; /* Adjust color to fit your design */
+    margin-left: 5px; /* Space between icon and text */
+}
+
+@media (max-width: 700px) {
+    .menu-text {
+        display: inline; /* Show on mobile screens */
+    }
+    nav .fa-bars {
+        font-size: 16px; /* Adjust size if necessary */
+    }
+}
